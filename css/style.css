@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding: 30px 0px;
+    min-height: 80px;
+    border-bottom: 5px solid #e8491d;
+}
+.btn{
+    margin-left: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e8491d;
+    border-radius: 100px;
+}
+.btn a:hover{
+    background:yellow;
+    color: rgb(0, 0, 0);
+    border-color: black;
+}
+.text h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0px 3px 0px black;
+    padding: 5px 0px;
+    transition: .6s;
+}
+.text h1:hover{
+    color: yellow;
+    font-size: 42px;
+}
+.main {
+    min-height: 400px;
+    background-image: url(/image/background.jpg);
+    background-color: #35424a;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 5px solid #e8491d;
+}
+.stark h1{
+    margin-top: 60px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family:'Josefin Sans', sans-serif;
+    text-shadow: 0px 3px 0px black;
+    transition: .6s;
+
+}
+.stark p{
+    font-family:'Josefin Sans', sans-serif;
+    padding-top: 60px;
+    font-size: 30px;
+    text-shadow: 0px 3px 0px black;
+    font-weight: 800;
+    transition: .6s;
+}
+.stark h1:hover{
+    color: yellow;
+    font-size: 39px;
+}
+.stark p:hover{
+    color: yellow;
+    font-size: 35px;
+}
+.young {
+    min-height: 360px;
+    background-blend-mode: lighten;
+    background-image: url(/image/rob.jpg);
+    background-color: #35424a;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+.wolf h1{
+    margin-top: 60px;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family:'Josefin Sans', sans-serif;
+    text-shadow: 0px 3px 0px black;
+    transition: .6s;
+}
+.wolf h5{
+    padding-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-shadow: 0px 3px 0px black;
+    font-weight: 800;
+    transition: .6s;
+}
+.wolf h1:hover{
+    color: red;
+    font-size: 45px;
+}
+.wolf h5:hover{
+    color: red;
+    font-size: 35px;
+}.searchbox {
+    overflow: hidden;
+}
+::placeholder{
+    color: #220801;
+    font-size: 20px;
+    text-align: center;
+}
+.searchbox input {
+    background-color: #e8491d;
+    border-radius: 30px;
+    float: right;
+    padding: 6px;
+    font-size: 17px;
+}
+.searchbox input:active{
+    background-color: rgb(255, 255, 255);
+}
